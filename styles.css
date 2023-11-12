@@ -1,3 +1,26 @@
 .navbar {
     display: flex;
+    background-color: gray;
+    color: white;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-links {
+    display: flex;
+    gap: 32px;
+    font-size: x-large;
+}
+
+.header-logo {
+    font-size:xx-large;
+    font-weight: 700;
 }
