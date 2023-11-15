@@ -27,5 +27,9 @@ a {
 
 .hero-container {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
