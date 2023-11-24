@@ -93,3 +93,14 @@ p {
     margin-right: -210px;
 }
 
+.quote {
+    font-size: 48px;
+    font-style: italic;
+}
+
+.quote-credit {
+    font-size: 36px;
+    text-align: right;
+    font-weight: 700;
+}
+
