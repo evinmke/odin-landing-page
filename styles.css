@@ -58,3 +58,16 @@ p {
     display: flex;
     flex-direction: row;
 }
+
+.content-container {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.content-heading {
+    font-size: 48px;
+    text-align: center;
+}
