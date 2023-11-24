@@ -52,5 +52,9 @@ p {
     height: 60px;
     text-shadow: none;
     border-radius: 12px;
+}
 
+.cat-containers {
+    display: flex;
+    flex-direction: row;
 }
