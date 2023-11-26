@@ -45,7 +45,7 @@ p {
     font-weight: normal;
 }
 
-.button {
+.button, .action-button {
     background-color: rgb(124, 124, 230);
     color: white;
     width: 170px;
@@ -97,6 +97,35 @@ p {
 
 .caption {
     max-width: 250px;
+}
+
+.action-container {
+    display: flex;
+    border-radius: 12px;
+    background-color: rgb(124, 124, 230);
+    margin: 75px auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+}
+
+.action {
+    margin-top: 0;
+    color: white;
+}
+
+.action-button {
+    border: 5px solid white;
 }
 
 
