@@ -77,6 +77,11 @@ p {
     display: flex;
     background-color: lightgrey;
     flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 350px;
+    justify-content: center;
+    
 }
 
 .quote {
