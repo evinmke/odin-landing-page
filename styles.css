@@ -52,6 +52,7 @@ p {
     height: 60px;
     text-shadow: none;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 .cat-containers {
@@ -127,6 +128,22 @@ h4 {
 .action-button {
     border: 5px solid white;
 }
+
+.button:hover, .action-button:hover {
+    background-color: rgb(34, 14, 43);
+}
+
+.footer-container {
+    display: flex;
+    background-color: gray;
+    color: white;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
 
 
 
