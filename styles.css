@@ -58,16 +58,9 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 40px;
     text-align: center;
-}
-
-.content-container {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 50px;
+    gap: 40px;
     padding-bottom: 100px;
-    gap: 50px;
 }
 
 .content-heading {
@@ -84,13 +77,6 @@ p {
     display: flex;
     background-color: lightgrey;
     flex-direction: column;
-    padding-right: 400px;
-    padding-left: 400px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    height: 574px;
-    margin-left: -210px;
-    margin-right: -210px;
 }
 
 .quote {
@@ -103,4 +89,10 @@ p {
     text-align: right;
     font-weight: 700;
 }
+
+.caption {
+    max-width: 250px;
+}
+
+
 
